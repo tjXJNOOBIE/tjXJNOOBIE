@@ -50,4 +50,15 @@ I build, operate, and scale **full Minecraft networks**: game logic, backend sys
 > Current Large or Complete Personal Projects
 
 - **Project-Novus (Private)**  
-  My current flagship project, featuri
+  My current flagship project, featuring proper version control and marking the start of deeper internal System Architect work.  
+  Features real Chess rating for players, retention manager, punishment system, rank system, DI, and much more.
+
+[See full feature list of Project Novus](https://github.com/tjXJNOOBIE/PROJECT-NOVUS-PUBLIC)
+
+---
+
+## My Journey
+
+*_Born 2000 – Gaming & Systems from 2002_*
+
+I’ve been building, playing, and experimenting with **_technology_** since age 2, hosting a **_cracked Minecraft server_**, creating content on **_YouTube_** and **_Twitch_** by 10, and developing through my preteens/teens. For the story, projects, and technical timeline, see: [**Personal Journey**](https://github.com/tjXJNOOBIE/Portfolio/blob/main/PERSONAL_AT_A_GLANCE.md)
