@@ -62,3 +62,4 @@ I build, operate, and scale **full Minecraft networks**: game logic, backend sys
 *_Born 2000 – Gaming & Systems from 2002_*
 
 I’ve been building, playing, and experimenting with **_technology_** since age 2, hosting a **_cracked Minecraft server_**, creating content on **_YouTube_** and **_Twitch_** by 10, and developing through my preteens/teens. For the story, projects, and technical timeline, see: [**Personal Journey**](https://github.com/tjXJNOOBIE/Portfolio/blob/main/PERSONAL_AT_A_GLANCE.md)
+
