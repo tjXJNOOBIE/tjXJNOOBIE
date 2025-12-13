@@ -1,59 +1,75 @@
-# TJ — Plugin Developer / Software Engineer  
-### Full-Stack Minecraft Systems • Reverse Engineering • DevOps • 8 YOE 
+# TJ — Server Engineer / Plugin Developer / DevOps
+### Full-Stack Minecraft Systems • Java Backend • DevOps • Reverse Engineering • 8 YOE
 
-I'm a Java Server Engineer with 8 Years Of Experience with projects in the Minecraft space. I can create anything from mini games to entire networks. 
-I build, operate, and scale **full Minecraft networks**: game logic, backend systems, infrastructure, and live production.  
+I'm a Java Server Engineer with 8 years of experience building general backend systems, game backends, and full Minecraft networks. 
+I work on everything from internal frameworks, APIs, and custom game modes to full networks and backends, either solo or within a team.
 
 ---
-
 ## What I Do
-- **Full-Stack Plugin & Backend Development**  
-  Game logic, matchmaking, profiles, scoreboards, inventories, database, orchestration.
+- **Java Backend / Minecraft Architecture Design**  
+  Create and design new games and systems from concept -> code -> release, with player experience as a first-class concern.
 
-- **Minecraft Network Operations**  
-  Managed/Owned multiple networks; Max. ~120 avg / ~300 peak concurrent players, sta.
+- **Full-Stack Minecraft Development**  
+  Game logic, matchmaking, profiles, economy, GUIs, stats, databases, the works.
+
+- **Minecraft Network Operations & Ownership**  
+  Operated/Owned multiple networks; Max. ~120 avg / ~300 peak concurrent players.
 
 - **Development Leadership**  
-  End-to-End ownership, mentoring, interviews, onboarding, live production overhauls, rebrands, task delegation.
+  End-to-end ownership, mentoring, interviews, onboarding, live production overhauls, rebrands.
 
-- **Backend Architecture**  
-  MySQL, Redis, caching, cross-server communication.
+- **Reverse Engineering & Modernization**  
+  Rebuild undocumented, legacy software into maintainable, extensible, feature-rich systems.
+
+- **General Java Backend Development**  
+  SQL, Redis, caching, APIs.
 
 - **DevOps & Infrastructure**  
-  Baremetal Linux servers, firewalls, 3rd party services, deployment tooling.
-  
-- **Reverse Engineering & Modernization**  
-  Rebuild undocumented, legacy plugins into maintainable and feature-rich systems.
+  Bare-metal Linux servers, firewalls, third-party services, distributed server orchestration.
 
-- **Design (Architecture) Prowess**  
-  Create and design new games/systems from concept -> code -> release. Flows, retention, and player experience are first in mind.
 
 ---
 
 ## Projects 
 
-**I'm only including projects I played a significant role in, owned code, AND served a public userbase. With exception to current personal work.**
+**I'm only including Minecraft projects I played a significant role in, owned code, and served a public userbase. More projects available upon request.**
 
-> Below repos are for one Survival Games and PvP Network
+> Minecraft Projects - All incorporate backend and API building. All games run as single-instance servers with deterministic state and serverd a public userbase.
 
-- **Minecraft SG & UHC FFA** – Single instance FFA tailored to UHC, with map rotation and ELO.  
-- **Minecraft Survival Games** – Similar to MCGamers/MCSG flagship Survival Games. Reverse-engineered project.  
-- **Minecraft UHC Games** – Similar to Survival Games, but tailored to UHC. Extra features like wagering on a player, game legacy, and more.  
-- **Minecraft UHC Meetup** – Single Instance MiniGame similar to Badlion/Hypixel UHC Meetup.  
-- **Minecraft UHC** – Single Instance UHC with scenarios, zombie logout flow, and more.  
-- **Minecraft ELO** – Letter-grade-based ELO system.  
-- **Server Lobby** – Hub/Lobby system for server orchestration and general lobby flow.  
-- **Server Core** – Backend core system and API.  
+- **SG & UHC Free For All** – FFA game mode with map rotation, kits, and a custom ELO system.  
+- **Survival Games** – Competitive Survival Games implementation inspired by MCGamers/MCSG. Reverse-engineered project.  
+- **UHC Games** – Survival Games-style UHC with additional systems such as player wagering and legacy tracking.  
+- **UHC Meetup** – Fast-paced UHC mini-game inspired by Badlion/Hypixel Meetup.  
+- **UHC** – Scenario-based UHC with custom game flow and zombie logout handling.  
+- **ELO System** – Letter-grade-based player rating system used across competitive game modes.
 
-**[Link to repos, deeper technical analysis, and other role duties here](https://github.com/tjXJNOOBIE/Portfolio/blob/main/Network%201%20Overview.md)**
+**[Click here for case studies, technical analytics, and other role duties for all these projects](https://github.com/tjXJNOOBIE/Portfolio/blob/main/Network%201%20Overview.md)**
 
-> Current Large or Complete Personal Projects
-
+> Backend & Framework Projects
+- **Game Server Lobby** – Hub/Lobby system for server orchestration.  
+- **Game Server Core** – Backend core system and API for game servers.  
 - **Project-Novus (Private)**  
-  My current flagship project, featuring proper version control and marking the start of deeper internal System Architect work.  
-  Features real Chess rating for players, retention manager, punishment system, rank system, DI, and much more.
+  **Project Novus is a modular Java backend and framework designed to support complex, stateful game systems in production environments.**
+  - Interface-driven dependency injection container with annotation scanning.
+  - Type-safe DependencyMap using interface keys and metadata-backed values.
+  - Metadata-based behavior delegation via generic type parameters.
+  - Retention manager with custom Retention Rating (RR) based on player behavior and purchases.
+  - Glicko-2 rating system capable of handling unlimited players in free-for-all environments.
+  - AbstractCache: type-safe cache designed for concurrency and system distribution.
+  - AbstractRegistry: type-safe registry system with metadata-driven lifecycle control.
+  - CustomRunnable: task system supporting delayed, repeating, synchronous, and asynchronous execution.
+  - Custom logging framework with structured output and asynchronous handling.
+  - Custom event system with EventBus and tagged events (e.g., MySQLDisconnectEvent).
+  - [See feature list with images of Project Novus. ](https://github.com/tjXJNOOBIE/PROJECT-NOVUS-PUBLIC) Code is currently private but can be shared with trusted parties.
+ 
+> General & Minecraft Development Operations
+- Managed multi-region game server orchestration with database replication.
+- Migrated clients from shared hosting environments to dedicated bare-metal Linux servers.
+- Scaled player capacity ~2× through network upgrades and performance optimization.
+- Responsible for security across game servers, proxies, web services, TeamSpeak, and third-party integrations.
+- Managed and integrated most third-party services alongside development operations.
 
-[See full feature list of Project Novus](https://github.com/tjXJNOOBIE/PROJECT-NOVUS-PUBLIC)
+
 
 ---
 
